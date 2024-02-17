@@ -166,7 +166,7 @@ fi
 
 # Provision site.
 # Pass environment variables to the container from the environment.
-docker compose exec ${dcopts[@]} cli bash -c "./scripts/drevops/provision.sh"
+docker compose exec ${dcopts[@]} cli bash -c "./vendor/bin/provision.sh"
 echo
 
 # Check that the site is available.

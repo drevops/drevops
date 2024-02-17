@@ -13,7 +13,7 @@ tasks:
 - Validation of Docker Compose and Composer configurations
 - Building Docker images and starting containers
 - Installing the development dependencies
-- Executing [the site provisioning script](../../../../scripts/drevops/provision.sh)
+- Executing [the site provisioning script](../../../../vendor/bin/provision.sh)
 - Verifying that the stack is functioning correctly and the site is
   accessible
 
@@ -108,7 +108,7 @@ to be minimised etc.).
 
 ### 9. Provision site
 
-This step will provision the site using [the site provisioning script](../../../../scripts/drevops/provision.sh),
+This step will provision the site using [the site provisioning script](../../../../vendor/bin/provision.sh),
 which contains all the workflow logic that controls which actions are taken
 when the site is provision. It runs in all environments.
 

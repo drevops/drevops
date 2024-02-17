@@ -137,7 +137,7 @@ commands:
 
   provision:
     usage: Provision a site from the database dump or profile.
-    cmd: ahoy cli ./scripts/drevops/provision.sh
+    cmd: ahoy cli ./vendor/bin/provision.sh
 
   export-db:
     usage: Export database dump or database image (if DREVOPS_DB_DOCKER_IMAGE variable is set).

@@ -79,7 +79,7 @@ tasks:
           fi
 
           export DREVOPS_DB_DIR=/tmp/data
-          ./scripts/drevops/provision.sh
+          ./vendor/bin/provision.sh
         service: cli
         shell: bash
 
